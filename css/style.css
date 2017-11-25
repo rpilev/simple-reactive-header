@@ -1,0 +1,226 @@
+.navbar-custom-top {
+  border-bottom: 1px solid #d8d8d8;
+  background: url(../img/green-waves.png) no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+
+.navbar-custom-top-right {
+  position: absolute;
+  bottom: 0;
+  right: 59px;
+}
+
+.navbar-nav.navbar-custom-top-right > li > a {
+  font-size: 18px;
+  color: #05ba00 !important;
+  font-weight: 700;
+}
+.navbar-nav.navbar-custom-top-right > li {
+  padding: 5px 22px;
+  border: 1px solid #d8d8d8;
+  border-bottom: 0px;
+  background-color: #fff;
+}
+.navbar-nav.navbar-custom-top-right > li:nth-child(1),
+.navbar-nav.navbar-custom-top-right > li:nth-child(2){
+  border-right: 0px;
+}
+
+.navbar-brand {
+  font-size: 50px !important;
+}
+
+.nabvar-custom-ul-center {
+  margin: 0 auto;
+}
+
+.carret-down {
+  font-size: 7px;
+  font-weight: 700;
+  display: inline-block;
+  bottom: 4px;
+  position: relative;
+}
+
+.navbar-custom-bottom {
+  background-color: unset !important;
+}
+
+.navbar-custom-bottom a {
+  color: #4f4f4f !important;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0;
+}
+
+#navbarSupportedContent .nav-item.active {
+  border-bottom: 3px #05ba00 solid;
+}
+
+.navbar-custom-bottom li {
+  padding: 0 15px 10px 15px;
+}
+
+.navbar-brand-img {
+  width: 130px;
+  margin-left: 80px;
+}
+
+.dropdown-menu.search-form {
+  padding: 15px 15px;
+  margin: 0;
+  margin-left: -1px;
+  border-radius: 0;
+  width: 398px;
+  -webkit-box-shadow: -1px 5px 33px 4px rgba(0,0,0,0.18);
+  -moz-box-shadow: -1px 5px 33px 4px rgba(0,0,0,0.18);
+  box-shadow: -1px 5px 33px 4px rgba(0,0,0,0.18);
+}
+
+.search-input {
+  width: 85% !important;
+  padding: 0 10px !important;
+  margin-right: 8px;
+  display: inline-block !important;
+  border-bottom: 1px #999999 solid !important;
+}
+
+.search-input:active {
+  border-bottom: 2px #05ba00 solid !important;
+  color: black !important;
+}
+
+.search-input:focus {
+  border-bottom: 2px #05ba00 solid !important;
+  outline: none;
+}
+
+.search-input:hover,
+.search-input:focus,
+.search-input:visited,
+.search-input:active
+ {
+  background: #fff !important;
+}
+
+.search-button {
+  background-color: #545454;
+  border-radius: 200px;
+  padding: 10px;
+  color: white;
+}
+
+.custom-toggle {
+  cursor: pointer;
+  background-color: #05ba00 !important;
+  border-radius: 100px !important;
+  padding: 8px 6px !important;
+  margin-top: 20px;
+  box-shadow: 3px 3px 10px #1e1e1e;
+}
+
+.box-shadow-menu {
+  position: relative;
+  padding-left: 1.25em;
+}
+.box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 0.4em;
+  width: 0.5em;
+  height: 0.05em;
+  background: white;
+  box-shadow: 
+    0 0.12em 0 0 white,
+    0 0.25em 0 0 white;
+}
+
+.navbar-side {
+  display: none;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  border: 1px solid #d8d8d8;
+  padding: 0;
+}
+
+.navbar-side-list {
+  right: 0;
+  position: absolute;
+  background-color: white;
+  height: 100%;
+  width: 80%;
+  padding: 25px 0 0 0;
+}
+
+.navbar-side-list li {
+  margin: -1px;
+  width: 400px;
+}
+
+.navbar-side-list li:not(:last-child) {
+  width: 100% !important;
+  border-bottom: 1px #e0e0e0 solid;
+}
+
+.navbar-side-list li a {
+  margin-top: 7px;
+  padding: 1px 0;
+  font-weight: 600;
+}
+
+.navbar-side-list li a:hover {
+  color: #05ba00 !important;
+}
+
+.navbar-side-list .active {
+  border-left: 5px #05ba00 solid !important;
+}
+
+.dropdown-menu.menu-2 {
+  margin-top: 1px;
+  margin-left: -1px;
+  border-radius: 0;
+  border-top: none;
+  -webkit-box-shadow: -1px 5px 33px 4px rgba(0,0,0,0.18);
+  -moz-box-shadow: -1px 5px 33px 4px rgba(0,0,0,0.18);
+  box-shadow: -1px 5px 33px 4px rgba(0,0,0,0.18);
+}
+
+@media (max-width: 612px) {
+
+  .navbar-brand-img {
+    width: 95px;
+    margin-left: 40px;
+  }
+
+  .navbar-brand {
+    padding: 0;
+  }
+
+  .navbar-custom-top {
+    padding: 0 !important;
+  }
+
+  .navbar-custom-top {
+    border-bottom: 2px #05ba00 solid;
+  }
+}
+
+*::-webkit-input-placeholder {
+    color: #d8d8d8;
+}
+*:-moz-placeholder {
+    color: #d8d8d8;
+}
+*::-moz-placeholder {
+    color: #d8d8d8;
+}
+*:-ms-input-placeholder {
+    color: #d8d8d8;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kodutöö</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="description" content="A simple reactive navbar">
+    <meta name="keywords" content="reactive, bootstrap, navbar, header"/>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./imports/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./imports/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./imports/jqueryUI/jquery-ui.min.css">  
+  </head>
+  <body>
+
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded navbar-custom-top">
+      <button class="navbar-toggler navbar-toggler-right custom-toggle" type="button" data-toggle="collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="box-shadow-menu"></span>
+      </button>
+      <a class="navbar-brand navbar-brand" href="#"><img alt="navbar-brand" class="navbar-brand-img" src="./img/enefit.png"></a>
+
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          
+        </ul>
+        <ul class="navbar-nav navbar-custom-top-right">
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+            <div class="dropdown-menu search-form">
+              <input type="text" class="dropdown-item search-input" placeholder="Search term...">
+              <i class="fa fa-search search-button" aria-hidden="true"></i>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              FIN <span class="carret-down">╲╱</span>
+            </a>
+            <div class="dropdown-menu menu-2">
+              <a class="dropdown-item" href="#">In English</a>
+              <a class="dropdown-item" href="#">På svenska</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              ENTER E-SERVICE
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded navbar-custom-bottom">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto nabvar-custom-ul-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PACKAGES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">MOVERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">OUR STORY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">NEWS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">E-SERVICE</a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-side" id="navbarSide">
+        <ul class="navbar-nav navbar-side-list">
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"><span class="sr-only">(current)</span>PACKAGES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">MOVERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">OUR STORY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">NEWS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">E-SERVICE</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <script type="text/javascript" src="./imports/tether/tether.min.js"></script>
+    <script type="text/javascript" src="./imports/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script type="text/javascript" src="./imports/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./imports/jqueryUI/jquery-ui.min.js"></script>
+  </body>
+</html>
